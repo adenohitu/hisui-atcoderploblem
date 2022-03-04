@@ -5,5 +5,8 @@
   "homepage": "https://github.com/adenohitu/hisui-atcoderploblem",
   "twitterID": "adenohitu",
   "AtCoderID": "compose",
-  "GithubID": "adenohitu"
+  "GithubID": "adenohitu",
+  "Setting": {
+    "mode": "view"
+  }
 }

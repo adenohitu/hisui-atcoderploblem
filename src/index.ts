@@ -1,5 +1,3 @@
-function hello(name: string): string {
-  return `Hello, ${name}!`;
-}
-
-console.log(hello("World"));
+module.exports = function (name: string): void {
+  console.log(`hello${name}`);
+};

@@ -8,7 +8,8 @@
     "asar:pack": "asar pack ./build ./dist/$npm_package_name.asar",
     "clean": "rimraf dist/ && rimraf build",
     "copy-files": "copyfiles -u 1 src/**/*.svg src/**/*.json build/",
-    "build": "yarn clean && tsc && yarn copy-files && yarn asar:pack"
+    "build": "yarn clean && tsc && yarn copy-files && yarn asar:pack",
+    "header": "node getRawHeader.js"
   },
   "devDependencies": {
     "@types/node": "16",
